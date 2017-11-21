@@ -471,8 +471,6 @@ Beneficiaries & \textit{Show and quantify beneficiaries impact, location of bene
 
 ### Resources {#sec:resou}
 
-####Useful resources {.unnumbered} 
-
 Hereafter are listed several resources that may be useful while creating visualizations.
 
 Color palette pickers, to help choose a color theme:
@@ -521,14 +519,17 @@ Layout and design:
 
 * [Image editor and layout tool online](http://www.sumopaint.com/home/), a free alternative to Photoshop\
 
-####Examples and inspiration in the ES field {.unnumbered} 
+###Examples & inspirations
+These examples of dashboards and visualization platforms are all taken in the ES field, for inspiration.
 
 * [The Gallery of the Marine Planning Concierge Tool gathers great work on marine ES](http://msp.naturalcapitalproject.org/msp_concierge_master/). These include [the Mapping portal for the Belize project by Gregg Verutes](http://www.geointerest.frih.org/NatCap/) and [a similar map web viewer from the same author, for coastal hazard model results in the Bahamas](http://marineapps.naturalcapitalproject.org/bahamas/)
 * [Myanmar Natural Capital: a storytelling approach for a project involving multiple ecosystem services](http://www.myanmarnaturalcapital.org/en). The tools used here are D3.js, leaflet, openStreetMaps, Google Maps and photoshop.
-* [The Nature Conservancy also developed a visualization platform, gathering a suite of web applications based on maps](http://coastalresilience.org/tools/apps/#apps_id|assess-risk|1), aiming to convey and/or simplify ecological concepts, assess risk, identify and compare different solutions and scenarios. For example, [the coastal resilience interactive map in the Gulf of Mexico](http://maps.coastalresilience.org/gulfmex/)
+* [The Nature Conservancy](http://coastalresilience.org/tools/apps/#apps_id|assess-risk|1) also developed a visualization platform, gathering a suite of web applications based on maps, aiming to convey and/or simplify ecological concepts, assess risk, identify and compare different solutions and scenarios. For example, [the coastal resilience interactive map in the Gulf of Mexico](http://maps.coastalresilience.org/gulfmex/)
+* [The Water of the West](http://www.deanfarr.com/western_water/#/), a webpage using storytelling approach and several well-designed interactive plots to present Western Water landscape in a data-dense way
 * [Collaborative GeoDesign, a web application allowing users to test land cover changes on the landscape, and informs on the expected corresponding impact on ES metrics](http://newagbioeconomy.umn.edu/collaborativegeodesign/)
 * [Weather forecast: the NWS enhanced Data Display](http://preview.weather.gov/edd/)
 * [Watershed Conservation Screening Tool](http://watershedtool.org/)
+* [NY Times Mapping the Spread of Drought Across the U.S.](https://www.nytimes.com/interactive/2014/upshot/mapping-the-spread-of-drought-across-the-us.html): Maps and charts updated weekly show the latest extent of the drought in the United States
 \
 
 ![Additional examples (a) To compare 3 ES metrics between 4 scenarios, @Arkema2 combines small multiples of objective score maps, with summary statistics and bar plots. (b) Change map displaying the amount of additional sediment export (in percentage) comparing a future scenario with the current baseline one [@Myanmar16]. (c) On a static display, @polasky's strategy consists in displaying only the extreme points of the trade-off curve. (d) Change in services for all scenarios and iterations relative to current management @Arkema2](../images/addl.png){#fig:addl}
