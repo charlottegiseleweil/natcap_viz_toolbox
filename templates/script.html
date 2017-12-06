@@ -15,13 +15,10 @@ toc.addClass("side-nav").addClass("fixed");
 
 // Add link to live demo & title of project
 const masterpageUrl = 'http://www.charlotteweil.fr/masterthesis';
+
+// Note the date last updated, taken from git during the build process and inserted here.
+const lastUpdated = 'LASTCOMMITDATE'
 toc.prepend(
-    '<li>' + 
-    '<a href="toolbox.pdf" target="_blank">' +
-    '<i class="material-icons">picture_as_pdf</i> PDF version' +
-    '</a>' +
-    '</li>' +
-    '<div class="bottom divider"></div>' + 
     '<li>' +
     '<a class="title" href="#title">' +
     titleFirst +
@@ -30,7 +27,6 @@ toc.prepend(
 
 // Add link to pdf document
 toc.append(
-    
     '<div class="divider"></div>' +
     '<li>' + 
     '<a href="' + masterpageUrl + '">' +
@@ -39,7 +35,7 @@ toc.append(
     '<div class="bottom divider"></div>' +
     '<li>' + 
     '<a href="' + masterpageUrl + '">' +
-    '<i class="material-icons">schedule</i> Updated Nov. 2017' +
+    '<i class="material-icons">schedule</i> Updated ' + lastUpdated +
     '</a>' +
     '</li>');
 
