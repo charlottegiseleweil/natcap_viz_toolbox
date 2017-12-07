@@ -23,7 +23,7 @@ html_includes=(
   '--include-before-body=templates/body-open.html'
   '--include-after-body=templates/body-close.html'
   '--include-after-body=templates/js-imports.html'
-  '--include-after-body=templates/script.html'
+  '--include-after-body=build/script.html'
   '--latexmathml'
 );
 
@@ -102,6 +102,8 @@ for idx in "${!outputs[@]}"; do
       > build/toolbox.md;
     mv build/toolbox.md build/toolbox_raw.md;
   elif [ "$format" = "-t html" ]; then 
+    GIT_COMMIT_DATE=$(bash -c "git log -1 --format=%cD | cut -f1-4 -d ' '")
+    sed "s|LASTCOMMITDATE|$GIT_COMMIT_DATE|g" ./templates/script.html > build/script.html
     cat build/toolbox_raw.md |\
       sed -e 's|\\ref{\([^}]*\)}|<span class="ref">\1</span>|g' \
       > build/toolbox.md;
