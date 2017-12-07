@@ -5,7 +5,7 @@
 \
 \
 
-*This document aims to support ES analysts striving to effectively communicate natural capital information. It proposes approaches to ES visualizations and summaries in the form of a toolbox tailored to the specific needs of ES analysts, supported by fundamental and applied data visualization guidelines. This toolbox was developed as part of a [master's thesis](http://www.charlotteweil.fr/masterthesis), and contains a subset of its chapters.*
+*This document aims to support ES analysts striving to effectively communicate natural capital information. It proposes approaches to ES visualizations and summaries in the form of a toolbox tailored to the specific needs of ES analysts, supported by fundamental and applied data visualization guidelines. This toolbox is updated regularly, please send any comments, additions and suggestions to [the author](mailto:chweil@stanford.edu). This work as initially developed as part of a [master's thesis](http://www.charlotteweil.fr/masterthesis).*
 
 \newpage
 

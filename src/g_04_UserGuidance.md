@@ -469,7 +469,9 @@ Beneficiaries & \textit{Show and quantify beneficiaries impact, location of bene
 \end{table}
 
 
-### Resources {#sec:resou}
+# Resources {#sec:resou}
+
+## Tools and librairies
 
 Hereafter are listed several resources that may be useful while creating visualizations.
 
@@ -519,7 +521,7 @@ Layout and design:
 
 * [Image editor and layout tool online](http://www.sumopaint.com/home/), a free alternative to Photoshop\
 
-###Examples & inspirations
+## Examples & inspirations
 These examples of dashboards and visualization platforms are all taken in the ES field, for inspiration.
 
 * [The Gallery of the Marine Planning Concierge Tool gathers great work on marine ES](http://msp.naturalcapitalproject.org/msp_concierge_master/). These include [the Mapping portal for the Belize project by Gregg Verutes](http://www.geointerest.frih.org/NatCap/) and [a similar map web viewer from the same author, for coastal hazard model results in the Bahamas](http://marineapps.naturalcapitalproject.org/bahamas/)
@@ -530,6 +532,7 @@ These examples of dashboards and visualization platforms are all taken in the ES
 * [Weather forecast: the NWS enhanced Data Display](http://preview.weather.gov/edd/)
 * [Watershed Conservation Screening Tool](http://watershedtool.org/)
 * [NY Times Mapping the Spread of Drought Across the U.S.](https://www.nytimes.com/interactive/2014/upshot/mapping-the-spread-of-drought-across-the-us.html): Maps and charts updated weekly show the latest extent of the drought in the United States
+* [Sacramento River Watershed Program (SRWP) Data Portal](http://data.sacriver.org/home/home.tpl/home.tpl) combines (interactive) plots and maps in a blog format.
 \
 
 ![Additional examples (a) To compare 3 ES metrics between 4 scenarios, @Arkema2 combines small multiples of objective score maps, with summary statistics and bar plots. (b) Change map displaying the amount of additional sediment export (in percentage) comparing a future scenario with the current baseline one [@Myanmar16]. (c) On a static display, @polasky's strategy consists in displaying only the extreme points of the trade-off curve. (d) Change in services for all scenarios and iterations relative to current management @Arkema2](../images/addl.png){#fig:addl}
