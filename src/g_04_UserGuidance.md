@@ -471,6 +471,51 @@ Beneficiaries & \textit{Show and quantify beneficiaries impact, location of bene
 
 # Resources {#sec:resou}
 
+## Examples & inspirations
+These examples of dashboards and visualization platforms are all taken in the ES field, for inspiration.
+
+### Web mapping, story maps and map-based apps
+* [The Global Forest Watch web map](https://www.globalforestwatch.org/map/) is a great  reference: a dense interactive map including information on Forest change, land use, land cover, conservation, population, and even stories.
+* [The Gallery of the Marine Planning Concierge Tool gathers great work on marine ES](http://msp.naturalcapitalproject.org/msp_concierge_master/). These include [the Mapping portal for the Belize project by Gregg Verutes](http://www.geointerest.frih.org/NatCap/) and [a similar map web viewer from the same author, for coastal hazard model results in the Bahamas](http://marineapps.naturalcapitalproject.org/bahamas/)
+* [Myanmar Natural Capital: a storytelling approach for a project involving multiple ecosystem services](http://www.myanmarnaturalcapital.org/en). The tools used here are D3.js, leaflet, openStreetMaps, Google Maps and photoshop.
+* [The Protected Planet website](https://protectedplanet.net/) is a reliable collaboratively sourced (NGOs, governments, communities…) information on protected areas, updated regularly and managed by the United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) with support from IUCN and its World Commission on Protected Areas (WCPA).
+* [The Telecoupling GeoApp](https://telecoupling.msu.edu/geo-app/) is a recent, cloud-based web mapping and analysis application to investigate telecouplings and hidden impacts. It includes multiple geoprocessing tools focused on a range of systems, including terrestrial, aquatic, and social. Additionally, it employs a range of models, including models from Natural Capital Project’s InVEST, thus offfering a cloud-based option for running these models.
+It is still in beta version as of mid 2018.
+* [Agroideal's territorial intelligence system](https://soja.agroideal.org/) is a free online system that supports decision-making and territorial assessment of socio-environmental risks associated with investments in the soy and livestock sectors. The objective is to help provide greater economic and productive performance coupled with low environmental and social impacts.
+* [The Water of the West](http://www.deanfarr.com/western_water/#/), a webpage using storytelling approach and several well-designed interactive plots to present Western Water landscape in a data-dense way
+* The [eartH2Observe Water Cycle Integrator](https://wci.earth2observe.eu/portal/?) allows you to view, manipulate and analyse Earth observation, in-situ and model data
+* [Collaborative GeoDesign](http://newagbioeconomy.umn.edu/collaborativegeodesign/), a web application allowing users to test land cover changes on the landscape, and informs on the expected corresponding impact on ES metrics
+* [Weather forecast: the NWS enhanced Data Display](http://preview.weather.gov/edd/)
+* [Watershed Conservation Screening Tool](http://watershedtool.org/)
+* [NY Times Mapping the Spread of Drought Across the U.S.](https://www.nytimes.com/interactive/2014/upshot/mapping-the-spread-of-drought-across-the-us.html): Maps and charts updated weekly show the latest extent of the drought in the United States
+* The Nature Conservancy’s [Greenprint Locator](https://www.conservationgateway.org/ConservationPractices/PeopleConservation/greenprints/Pages/Find-A-Greenprint.aspx)
+locates greenprints spatially and is a great example of leveraging the ArcGIS Online platform for web mapping.
+
+### Visualization dashboards
+
+* [The Nature Conservancy](http://coastalresilience.org/tools/apps/#apps_id|assess-risk|1) also developed a visualization platform, gathering a suite of web applications based on maps, aiming to convey and/or simplify ecological concepts, assess risk, identify and compare different solutions and scenarios. For example, [the coastal resilience interactive map in the Gulf of Mexico](http://maps.coastalresilience.org/gulfmex/)
+* [Sacramento River Watershed Program (SRWP) Data Portal](http://data.sacriver.org/home/home.tpl/home.tpl) combines (interactive) plots and maps in a blog format.
+* [The Californian Climate Console](http://climateconsole.org/) is a dashboard reporting climate projections in California, with detailed climate, weather and impact data calculated for user-selected areas at different resolutions.
+* [The Conservation ROI Dashboard](http://nascience.us/roi/public/) links different variables of conservation projects.
+
+\
+
+![Additional examples (a) To compare 3 ES metrics between 4 scenarios, @Arkema2 combines small multiples of objective score maps, with summary statistics and bar plots. (b) Change map displaying the amount of additional sediment export (in percentage) comparing a future scenario with the current baseline one [@Myanmar16]. (c) On a static display, @polasky's strategy consists in displaying only the extreme points of the trade-off curve. (d) Change in services for all scenarios and iterations relative to current management @Arkema2](../images/addl.png){#fig:addl}
+
+![[The Middle Cedar visualization](https://phawthorne.github.io/mc-vis/) is an interactive webapp, developed by @Peter, who combined a scatterplot, a map, a pie chart and summary statistics in a single dashboard. It allows users to click on each point of the trade-off curve, and the corresponding land cover map will be displayed. Additionally, summary metrics and a pie chart provide information relative to the scenario chosen upon click [@Peter]](../images/peter.png){#fig:Peter width=70%} 
+
+![Extract of the [Conservation ROI Dashboard](http://nascience.us/roi/public/), gathering and comparing ROI projects across the US](../images/consdash.png){#fig:ConservationROIDashboard}
+
+![[The Tana Water Fund interactive dashboard](https://charlottegiseleweil.github.io/webviz_natcap/) allows visualization of tradeoffs between objectives, comparison of scenarios and assessment of uncertainty. The current version is a prototype laying out the concept for a more generic tool](../images/webapp/full.png){#fig:webapp_full}
+
+\newpage
+
+####Broader inspiration sources
+
+* [Flowing data: General data visualization ideas in blog format](http://flowingdata.com/)
+* [The Water in the West: displaying reservoirs capacities linking a map of reservoirs to capacity graphs](http://www.deanfarr.com/western_water/#/)
+* [Live CO2 emissions of electricity consumption: an interactive map](https://www.electricitymap.org/?wind=false&solar=false&page=map)
+
 ## Tools and librairies
 
 Hereafter are listed several resources that may be useful while creating visualizations.
@@ -521,36 +566,7 @@ Layout and design:
 
 * [Image editor and layout tool online](http://www.sumopaint.com/home/), a free alternative to Photoshop\
 
-## Examples & inspirations
-These examples of dashboards and visualization platforms are all taken in the ES field, for inspiration.
-
-* [The Gallery of the Marine Planning Concierge Tool gathers great work on marine ES](http://msp.naturalcapitalproject.org/msp_concierge_master/). These include [the Mapping portal for the Belize project by Gregg Verutes](http://www.geointerest.frih.org/NatCap/) and [a similar map web viewer from the same author, for coastal hazard model results in the Bahamas](http://marineapps.naturalcapitalproject.org/bahamas/)
-* [Myanmar Natural Capital: a storytelling approach for a project involving multiple ecosystem services](http://www.myanmarnaturalcapital.org/en). The tools used here are D3.js, leaflet, openStreetMaps, Google Maps and photoshop.
-* [The Nature Conservancy](http://coastalresilience.org/tools/apps/#apps_id|assess-risk|1) also developed a visualization platform, gathering a suite of web applications based on maps, aiming to convey and/or simplify ecological concepts, assess risk, identify and compare different solutions and scenarios. For example, [the coastal resilience interactive map in the Gulf of Mexico](http://maps.coastalresilience.org/gulfmex/)
-* [The Water of the West](http://www.deanfarr.com/western_water/#/), a webpage using storytelling approach and several well-designed interactive plots to present Western Water landscape in a data-dense way
-* [Collaborative GeoDesign, a web application allowing users to test land cover changes on the landscape, and informs on the expected corresponding impact on ES metrics](http://newagbioeconomy.umn.edu/collaborativegeodesign/)
-* [Weather forecast: the NWS enhanced Data Display](http://preview.weather.gov/edd/)
-* [Watershed Conservation Screening Tool](http://watershedtool.org/)
-* [NY Times Mapping the Spread of Drought Across the U.S.](https://www.nytimes.com/interactive/2014/upshot/mapping-the-spread-of-drought-across-the-us.html): Maps and charts updated weekly show the latest extent of the drought in the United States
-* [Sacramento River Watershed Program (SRWP) Data Portal](http://data.sacriver.org/home/home.tpl/home.tpl) combines (interactive) plots and maps in a blog format.
-\
-
-![Additional examples (a) To compare 3 ES metrics between 4 scenarios, @Arkema2 combines small multiples of objective score maps, with summary statistics and bar plots. (b) Change map displaying the amount of additional sediment export (in percentage) comparing a future scenario with the current baseline one [@Myanmar16]. (c) On a static display, @polasky's strategy consists in displaying only the extreme points of the trade-off curve. (d) Change in services for all scenarios and iterations relative to current management @Arkema2](../images/addl.png){#fig:addl}
-
-![[The Middle Cedar visualization](https://phawthorne.github.io/mc-vis/) is an interactive webapp, developed by @Peter, who combined a scatterplot, a map, a pie chart and summary statistics in a single dashboard. It allows users to click on each point of the trade-off curve, and the corresponding land cover map will be displayed. Additionally, summary metrics and a pie chart provide information relative to the scenario chosen upon click [@Peter]](../images/peter.png){#fig:Peter width=70%} 
-
-![Extract of the [Conservation ROI Dashboard](http://nascience.us/roi/public/), gathering and comparing ROI projects across the US](../images/consdash.png){#fig:ConservationROIDashboard}
-
-![[The Tana Water Fund interactive dashboard](https://charlottegiseleweil.github.io/webviz_natcap/) allows visualization of tradeoffs between objectives, comparison of scenarios and assessment of uncertainty. The current version is a prototype laying out the concept for a more generic tool](../images/webapp/full.png){#fig:webapp_full}
-
-\newpage
-
-####Broader inspiration sources
-
-* [Flowing data: General data visualization ideas in blog format](http://flowingdata.com/)
-* [The Water in the West: displaying reservoirs capacities linking a map of reservoirs to capacity graphs](http://www.deanfarr.com/western_water/#/)
-* [Live CO2 emissions of electricity consumption: an interactive map](https://www.electricitymap.org/?wind=false&solar=false&page=map)
-
-
-
+Web Mapping
+* [Leaflet](https://leafletjs.com/) is a great open-source JavaScript library for interactive web maps. 
+* ArcGIS Online, by ESRI, offers very simplified interface to create web maps, for non-developpers. Examples include the [Greenprint Locator](https://www.conservationgateway.org/ConservationPractices/PeopleConservation/greenprints/Pages/Find-A-Greenprint.aspx) and [The Telecoupling GeoApp](https://telecoupling.msu.edu/geo-app/) detailed above.
 
